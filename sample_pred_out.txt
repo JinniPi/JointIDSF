@@ -1,0 +1,1 @@
+<flight> -> Tôi muốn tìm chuyến bay từ [Hà:B-fromloc.city_name] [Nội:I-fromloc.city_name] đến [Hải:B-toloc.city_name] [phòng:I-toloc.city_name] lúc [9h:B-depart_time.time] [sáng:I-depart_time.time]

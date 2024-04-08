@@ -1,0 +1,6 @@
+__pycache__
+.DS_Store
+checkpoint/JointBERT-CRF_ATIS
+checkpoint/JointBERT-CRF_PhoBERTencoder
+checkpoint/JointIDSF_atis
+checkpoint/JointIDSF_PhoBERTencoder
