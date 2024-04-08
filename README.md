@@ -9,7 +9,7 @@ I do experiment on PhoATIS [Vietnamese] dataset and ATIS [English] dataset. My r
 - PyTorch version >= 1.4.0
 
 ```
-    git clone https://github.com/VinAIResearch/JointIDSF.git
+    git clone https://github.com/JinniPi/JointIDSF.git
     cd JointIDSF/
     pip3 install -r requirements.txt
 ```
