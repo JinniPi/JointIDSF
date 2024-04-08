@@ -1,6 +1,6 @@
 ## The implement of Joint Intent Detection and Slot Filling
 This is implement of JointIDSF model. I modified based on the offical code and deploy an Google extention and Gradio.
-I do experiment on PhoATIS [Vietnamese] dataset and ATIS [English] dataset. My results are shown in report file. 
+I do experiment on PhoATIS [Vietnamese] dataset and ATIS [English] dataset. My results are shown in the report file. 
 
 ## Model installation, training and evaluation
 
@@ -15,12 +15,16 @@ I do experiment on PhoATIS [Vietnamese] dataset and ATIS [English] dataset. My r
 ```
 
 ### Training and Evaluation
-Run the following bash files to train and evaluation:
+Run the following bash files to train and evaluate:
 ```
     scripts/run_jointIDSF_PhoBERTencoder.sh
 ```
 
 ## Deploy API
 
-After training, the model file will save in to checkpoint folder. To run the app you can choose Google extension [aap.py] or Gradio [app1.py] By the way, to have good insight, I suggest to choose Gradio option.
+After training, the model file will be saved into the checkpoint folder. To run the app you can choose Google extension [app.py] or Gradio [app1.py] By the way, to have good insight, I suggest choosing the Gradio option.
+
+## Acknowledgement
+
+My code is based on the unofficial implementation of the JointIDSF paper, from GitHub https://github.com/VinAIResearch/JointIDSF/tree/main
 
